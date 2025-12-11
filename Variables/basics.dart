@@ -9,7 +9,7 @@ void main() {
   // here dart infers the datatype of the variable based upon the value of that variable.
   var name = "Adarsh";
 
-  // final variables cannot be changed, they can be determined at rum time.
+  // final variables cannot be changed, they can be determined at rumtime.
   final birthdate = "21/02/2003";
 
   print('Name $name \nAge : $age \nBirthDate : $birthdate');

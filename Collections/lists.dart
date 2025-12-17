@@ -1,9 +1,20 @@
 void main(){
+
+  // list = ordered collection that starts at index 0.
   // creating the list
   List<int> list = [1,2,43,4];
+  // another way to create a list
+  var listOfStrings = ["Adarsh","Akshat","Jay","Abhinav","Prayanshu"];
+  // printing the list
+  print("List of integers :${listOfStrings}");
 
+  // traversal of list
+  for(var item in listOfStrings){
+    print("item : $item");
+  }
   // accessing the list.
   list[2] = 3;
+  print("accessing index using value  : ${list.indexOf(1)}"); // output_value = 0;
 
   print("first iteration :${list}");
 

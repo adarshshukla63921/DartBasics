@@ -7,14 +7,14 @@ void main(){
   // print(name.length) => will give error.
 
   // safe access operator
-  print("Using Safe operator : ${name?.length}"); // prints null
+  //print("Using Safe operator : ${name?.length}"); // prints null
 
   // You can assign a value later.
   name = "Hello, Dart!";
   // You must handle null values differently
-  if(name != null){
-    print(name.length);
-  }
+  // if(name != null){
+  //   print(name.length);
+  // }
 
   // using default with null
   String? greeting;

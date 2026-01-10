@@ -10,8 +10,9 @@ Asynchronous Programming let's your program complete work while waiting for anot
 
 ## 2) How they affect the execution order ?
 
-    * 
+Normal code blocks before proceeding to the next line, by using await and async keywords we can wait for a value to be returned by a function.
+Note that you must use async, only then you can await inside that function.
 
 ## 3) How to do error handling using try catch in async functions ?
 
-    * 
+See the providied example in Asynchronous/Future/errorHandlingWithFutures.dart
